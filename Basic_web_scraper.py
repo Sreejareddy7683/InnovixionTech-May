@@ -24,9 +24,9 @@ def web_scrape(url):
         print(f'Failed to retrieve the web page. Status code: {response.status_code}')
     
     # URL of the website to scrape
-    #we can use any website ,here i used gfg for demonstration of code
-    url = 'https://www.geeksforgeeks.org/' 
+    url = 'https://www.example.com/home' 
     
     web_scrape(url)
     
+
 
